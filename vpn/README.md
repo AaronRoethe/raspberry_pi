@@ -94,9 +94,9 @@ sudo noip2 -S
 ```bash
 sudo crontab -e
 ```
--
+
 @reboot /usr/local/bin/noip2
--
+
 Ctrl+O ENTER Ctrl+X
 ```bash
 sudo reboot
@@ -119,6 +119,11 @@ pivpn -qr <profile_name>
 ```bash
 pivpn remove <profile_name>
 ```
+5. Move file from remote pi to local device 
+```bash
+scp pi@<IP address>:/home/pi/configs/<client.conf> <client.conf>
+```
+6. Download app on client device, Import tunnel from file, & activate
 
 # Sources
 
