@@ -22,7 +22,7 @@ You'll need three types of software for the project and a raspberry pi (I used P
 # Pi_setup
 1. Raspberry Pi imager - 
 [Pi Software General link](https://www.raspberrypi.com/software/)
-[Pi Imager Softwar](https://www.raspberrypi.com/software/#:~:text=Raspberry%20Pi%20Imager.-,Download%20for%20macOS,-Download%20for%20Windows)
+[Pi Imager Software](https://www.raspberrypi.com/software/#:~:text=Raspberry%20Pi%20Imager.-,Download%20for%20macOS,-Download%20for%20Windows)
 - Choose the first option Raspberry Pi OS (32-bit)
 2. Insert and choose SD Card to flash
 3. Write and confirm - est. 2-5 minutes
