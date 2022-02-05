@@ -34,4 +34,8 @@ nmap -A <target ip-address>
 ```
 
 # add docker screamed to browser next!
-
+Using Docker:
+```bash
+docker run --user root --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/core-kali-rolling:develop-rolling
+```
+In web-browser search https://localhost:6901
